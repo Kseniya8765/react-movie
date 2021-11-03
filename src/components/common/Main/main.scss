@@ -1,0 +1,17 @@
+$mainColor:#13101a;
+
+.container{
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.movies{
+  padding: 25px 0;
+  background-color: $mainColor;
+}
+.movie-box{
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+.not-found {
+  .text{
+    text-align: center;
+  p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1;
+  }  
+  a{
+    color: red;
+  }
+  }
+  .glitch {
+    font-size: 10rem;
+    font-weight: 800;
+    line-height: 1;
+    color: red;
+    position: relative;
+    display: block;
+    width: 300px;
+    margin: 0 auto 3rem;
+
+  }
+}

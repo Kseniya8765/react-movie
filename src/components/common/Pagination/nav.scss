@@ -1,0 +1,20 @@
+$white2:#b9b9b9;
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.nav{
+  padding: 10px 0;
+  background-color: #17141f;
+  box-shadow: -5px -5px 18px -5px rgba(34, 60, 80, 0.6) inset;
+}
+.MuiPaginationItem-root{
+color: $white2 !important;
+}
+.MuiPagination-ul{
+  justify-content: center;
+}

@@ -1,0 +1,43 @@
+$mainColor:#13101a;
+$red:#dc2d43;
+$white:#dedede;
+$fontWhite: "Droid Sans", arial, verdana, sans-serif;
+
+header{
+  background-color: $mainColor;
+}
+.container{
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.logo{
+  max-width: 200px;
+   h1{
+    color: $red;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 800;
+    font-family:$fontWhite;
+  }
+   p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: $white;
+    font-weight: 400;
+    font-family:$fontWhite;
+  }
+}
+
+.favorites img{
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
